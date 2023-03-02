@@ -1,0 +1,79 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --light-cyan: hsl(193, 100%, 96%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+    --white: #FFFFFF;
+    --main-font: 'Open Sans';
+    --header-font: 'Poppins';
+}
+
+body {
+    font-size: 18px;
+    font-family: var(--main-font);
+    background-image: url("/assets/images/bg-hero-mobile.svg");
+    
+}
+
+/* header */
+header {
+    font-family: var(--header-font);
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 1em 7em;
+}
+
+.header__img {
+    height: 1.2em;
+}
+
+.header__btn {
+    background-color: var(--white);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 1em;
+}
+
+/* content */
+.content {
+    text-align: center;
+    margin: 0 1.5em;
+}
+
+.content-info__title {
+    text-align: center;
+    font-family: var(--header-font);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.content-info__text {
+    line-height: 1.5em;
+    margin: 1.5em 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+.content-info__btn {
+    background-color: var(--pink);
+    font-size: 14px;
+    color: var(--light-cyan);
+    padding: 1em 4.5em;
+    border-radius: 24px;
+}
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
