@@ -142,9 +142,14 @@ footer {
     padding-top: 8em;
 }
 
+.footer-info {
+    padding: 2em 0 3em;
+    margin: 0 1em;
+}
 .footer-info__container {
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 2em;
+    
 }
 .footer-info__img {
     width: fit-content;
@@ -157,6 +162,14 @@ footer {
     font-size: 16px;
 }
 
+.footer-info__list {
+    color: var(--light-cyan);
+    padding: 2em 0;
+}
+
+.list__item {
+    margin-bottom: 1.5em;
+}
 
 .attribution { 
     font-size: 11px; 
