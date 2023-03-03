@@ -106,6 +106,9 @@ header {
 }
 
 /* bottom card */
+.bottom-card {
+    background-color: var(--white);
+}
 
 .bottom-card__container {
     background-color: var(--white);
@@ -114,7 +117,8 @@ header {
     margin: 0 .5em;
     padding: 3em 0;
     text-align: center;
-   
+    position: relative;
+    top: 5em;
 }
 
 .bottom-card__title {
@@ -135,7 +139,22 @@ header {
 /* footer */
 footer {
     background-color: var(--dark-cyan);
-    color: var(--light-cyan); 
+    padding-top: 8em;
+}
+
+.footer-info__container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info__img {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 2em;
+}
+.footer-info__text {
+    text-align: left;
+    color: var(--light-cyan);
+    font-size: 16px;
 }
 
 
