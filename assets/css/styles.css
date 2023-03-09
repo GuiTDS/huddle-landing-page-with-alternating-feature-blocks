@@ -218,6 +218,10 @@ footer {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
+    .header__btn:hover {
+        color: var(--grayish-blue);
+    }
+
     /* content */
     .content {
         display: flex;
@@ -245,6 +249,10 @@ footer {
     .content-info__btn {
         padding: 1.5em 4.5em;
         border-radius: 50px;
+    }
+
+    .content-info__btn:hover {
+        opacity: .5;
     }
 
     .content__img {
@@ -306,6 +314,10 @@ footer {
         padding: 1.5em 0;
         font-size: 20px;
         border-radius: 50px;
+    }
+
+    .bottom-card__btn:hover {
+        opacity: .5;
     }
 
     /* footer */
