@@ -174,7 +174,7 @@ footer {
 
 .footer-info__list {
     color: var(--light-cyan);
-    padding: 2em 0;
+    padding: 0;
 }
 
 .list__item {
@@ -309,9 +309,39 @@ footer {
     }
 
     /* footer */
-    .footer-img, .footer-info {
-        margin: 3em;
+    footer {
+        padding-top: 12em;
     }
 
-    
+    .footer-img, .footer-info {
+        margin: 0 5em;
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: 40% 1fr 1fr 1fr;
+        padding-bottom: 4em;
+    }
+
+    .footer-info__main {
+        padding-right: 7em;
+    }
+
+    .footer-info__list {
+        padding: 0 3em;
+    }
+
+    .footer-info__text {
+        font-size: 18px;
+    }
+
+    .list__item {
+        font-size: 22px;
+    }
+
+    .copyright {
+        align-self: end;
+    }
+
+
 }
