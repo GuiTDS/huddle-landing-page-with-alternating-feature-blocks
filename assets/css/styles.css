@@ -31,10 +31,12 @@ header {
 }
 
 .header__btn {
+    font-weight: 700;
     background-color: var(--white);
     border: 1px solid black;
     border-radius: 20px;
     padding: 0 1em;
+    cursor: pointer;
 }
 
 /* content */
@@ -59,11 +61,13 @@ header {
 }
 
 .content-info__btn {
+    cursor: pointer;
     background-color: var(--pink);
     font-size: 14px;
     color: var(--light-cyan);
     padding: 1em 4.5em;
     border-radius: 24px;
+    font-weight: 700;
 }
 
 .content__img {
@@ -134,6 +138,7 @@ header {
     padding: 1em 3.5em;
     border-radius: 24px;
     margin-top: 2em;
+    cursor: pointer;
 }
 
 /* footer */
@@ -200,7 +205,7 @@ footer {
     }
 
     header {
-        margin: 2em 3em 4em;
+        margin: 2em 5em 4em;
     }
 
     .header__img {
@@ -216,24 +221,30 @@ footer {
     /* content */
     .content {
         display: flex;
-        margin: 0 2em;
+        margin: 0 4em;
     }
 
     .content-info {
         margin-top: 6em;
         text-align: left;
         margin-right: 1em;
+        padding-right: 8em;
     }
 
     .content-info__title {
         text-align: left;
         font-size: 38px;
-        padding-right: 2em;
+        padding-right:4em;
     }
 
     .content-info__text {
         text-align: justify;
-        font-size: 20px;
+        font-size: 22px;
+    }
+
+    .content-info__btn {
+        padding: 1.5em 4.5em;
+        border-radius: 50px;
     }
 
     .content__img {
@@ -244,7 +255,7 @@ footer {
 
     /* cards */
     .card {
-        margin: 3em;
+        margin: 5em;
         display: flex;
     }
 
@@ -257,12 +268,14 @@ footer {
     }
 
     .card__title {
-        font-size: 28px;
+        font-size: 36px;
         text-align: left;
     }
 
     .card__text {
         text-align: justify;
+        font-size: 24px;
+        padding-right: 2em;
     }
 
     .odd-card {
@@ -276,4 +289,29 @@ footer {
     .even-card .card__img {
         margin-right: 8em;
     }
+
+    /* bottom card */
+    .bottom-card__container {
+        padding: 3em 0;
+        width: 60%;
+        margin: auto;
+    }
+
+    .bottom-card__title {
+        font-size: 36px;
+    }
+
+    .bottom-card__btn {
+        width: 35%;
+        padding: 1.5em 0;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+
+    /* footer */
+    .footer-img, .footer-info {
+        margin: 3em;
+    }
+
+    
 }
